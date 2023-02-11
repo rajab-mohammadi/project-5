@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "exo-regular";
+  src: url("../fonts/Exo-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "exo-bold";
+  src: url("../fonts/Exo-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "exo-extra-bold";
+  src: url("../fonts/Exo-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "exo-light";
+  src: url("../fonts/Exo-Light.ttf") format("truetype");
+}
+/* Define global variables */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+h1 {
+  --blue:#ddd;
+  font-family: "exo-extra-bold";
+  color: var(--blue);
+}
+h2{
+  color: var(--blue);
+}
+div{
+  width: 300px;
+  height: 300px;
+  /* border:2px solid var(--blue); */
+  background-color: #ddd;
+  /* border-top-left-radius: 40px;
+  border-bottom-right-radius:40px ;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px; */
+  /* border-radius: 20px; */
+  /* border-radius: 20px 30px 10px; */
+  border-image: url("../images/pages/");
+}
+
